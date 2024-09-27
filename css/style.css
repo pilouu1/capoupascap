@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=Jacquarda+Bastarda+9&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url(components/cards.css);
+@import url(components/header.css);
+@import url(components/container.css);
+@import url(components/btns.css);
+@import url(components/footer.css);
+@import url(components/notification.css);
+
+
+
+h1{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 50px
+}
+
+h2,h3{
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  opacity: .7;
+}
+h3{
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+p{
+    font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.4;
+  opacity: .7;
+}
+
+h4{
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  padding-top:40px ;
+  padding-left: 70px;
+  word-spacing: 8px;
+}
+
+ul{
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.4;
+  opacity: .7;
+  list-style: none;
+}
+
+ol{
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.4;
+  opacity: .7;
+}
+
+@media (max-width:900px){
+    .container {
+      width: 720px;
+    }
+  }
+  
+  @media (max-width:720px){
+    .container {
+      width: 500px;
+    }
+  }
+  
+  @media (max-width:500px){
+    .container {
+      width: 300px;
+    }
+  }
