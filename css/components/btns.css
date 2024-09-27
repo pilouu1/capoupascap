@@ -1,0 +1,23 @@
+.btns {
+    display: inline-flex;
+    align-items: center;
+    border-radius: 10%;
+    border-color: black;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    padding: 10px 30px;
+    transition: transform 0.5s ease;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    background: black;
+}
+
+.btns i {
+    margin-right: 10px;
+}
+
+.btns:hover{
+    background: radial-gradient(rgb(66, 233, 255), rgb(65, 129, 255));
+    text-decoration: none;
+    transform: scale(1.05);
+}
